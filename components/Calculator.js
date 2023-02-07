@@ -11,8 +11,6 @@ export default function Calculator( {navigation } ) {
   const [result, setResult] = useState('');
   const [results, setResults] = useState([]);
 
-
-
   const calculate = operator => {
     
     const number1 = Number(first);
